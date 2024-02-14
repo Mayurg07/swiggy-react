@@ -23,7 +23,7 @@ const Header = () => {
                         <li>
                             <div class="nav-icon">
                                 <span><i class="ri-search-line"></i></span>
-                                <span>Search</span>
+                                <input type="text" name="search" placeholder="Search" />
                             </div>
                         </li>
                         <li>

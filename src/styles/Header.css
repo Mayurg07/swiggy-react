@@ -106,6 +106,18 @@
     padding-left: 10px;
   }
 
-.nav-right .nav-icon:hover{
+.nav-right .nav-icon:hover {
     color: #fc8019;
+}
+
+.nav-icon input {
+    height: 80px;
+    width: 50px;
+    border: none;
+    color: #3d4152;
+    font-size: 16px;
+    font-weight: 500;
+    list-style-type: none;
+    outline: none;
+    padding-left: 10px;
 }

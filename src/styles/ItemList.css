@@ -1,0 +1,71 @@
+.meal {
+    max-width: 1200px;
+    min-width: 1200px;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 80px;
+    left: 40px;
+    background: rgb(255, 255, 255);
+  }
+
+  .meal .title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+  }
+
+  .heading h2 {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: -0.4px;
+    color: rgba(2, 6, 12, 0.92);
+  }
+
+  .arrows {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 20px;
+    margin-right: 55px;
+  }
+
+  .arrows .arrow-left {
+    width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: rgb(226, 226, 231);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+  }
+
+  .arrows .arrow-right {
+    width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: rgb(226, 226, 231);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+  }
+
+  .item-list {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding-top: 20px;    
+  }
+
+  .item-img img{
+    width: 110px;
+    height: 110px;
+    margin-left: 27px;
+    margin-right: 27px;
+  }
+
+ 
